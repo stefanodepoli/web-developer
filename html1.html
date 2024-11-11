@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-developer/html</title>
+    <link rel="stylesheet" href="assets/css/file-css.css">
+</head>
+<body>
+  <header>
+    <h1>HTML</h1>
+  </header>
+  <div>
+    <div class="bott-avaind">
+      <ul>
+        <li><a href="index.html">pagina principale</a></li>
+        <li><a href="">next page</a></li>
+      </ul>
+    </div>
+    <div>
+      <p>
+        HTML è acronimo di <span> hyper text markup lenguage</span>,è quindi un linguaggio di markup con cui costruire pagine web.
+        HTML nasce come linguaggio per <span>documenti scentifici</span>,ma negli anni deventa il linguaggio ufficiale del www.
+        Questo linguaggio che ormai è diventato il linguaggio ufficiale del web nasce nei <span>primi anni 90</span> da
+         Tim Berners Lee. <br>
+        <span>tim berners lee</span> oggi dirige la <span>w3c</span> insieme al ceo Jaffrey Jaffe.
+        Le pagine web nascono con l'obbiettivo di creare <span>ipertesti</span>,ovvero pafine che si possono leggere non solo in
+        maniera seriale ma anche sequenziale.
+        Il secondo obbiettivo delle pagine web era quello di creare dei testi che si potevano leggere <span>ovuque</span>.
+        Oggi per scrivere una pagina web sono necessare <span>tre linguaggi</span>:
+        <ol class="pio">
+            <li>HTYML = serve ad aggiungere contenuto</li>
+            <li>CSS = serve per la formattazione</li>
+            <li>JAVASCRIPT = serve a rendere interattivi il contenuto e la formattazione</li>
+        </ol>
+      </p>  
+       <p>
+        iniziamo parlando ovviamente di HTML.
+        html è una pagina di testo strutturata in un <span>insieme di elementi</span>, ogni elemento è composto da un 
+        <span>tag</span>, spesso c'è un tag di apertura e uno di chiusura. <br>
+        All'interno dei tag c'è il testo.
+        i <span>tag di apertura</span> di un elemento possono avere al loro interno degli <span>attributi</span>.
+        Gli elementi e i tag servono a dare una <span>struttura gerarchica</span> al testo e sono annidati tra loro ,un sotto elemento 
+        viene sempre creato e chiuso all'interno di un elemento più grande.
+        </p>
+        <p>
+        Per quanto riguarda la formattazione invece di un testo abbiamo css, seppur css resta il linguaggio di formattazione
+        di una pagina web,esistono <span>molti framework</span> che semplificano la vita ai programmatori e quindi evitano 
+        l'utilizzo di css , è importante però sapere come funziona per capire le fasi successive dei vari framework.
+        <span>Per costruire una pagina web si parte sempre da una pagina html</span>. 
+        La prima cosa da definire è il tipo di pagina nel programma di editor (vsc) es : html:5 o css, nel caso di una pagina
+        html uscirà come prima impostazione questo: <br>
+          <br>
+         &lt!DOCTYPE html> <br>
+         elthtml lang="en"> <br>
+         &lthead> <br>
+            &ltmeta charset="UTF-8"> <br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"> <br>
+            &lttitle>Document</title> <br>
+         &lt/head> <br>
+         &ltbody> <br>
+            
+         &lt/body> <br>
+         &lt/html> <br>
+         <br>
+        La parte superiore ,<span>head</span> è una sezione del documento che contiene <span>metadati</span> e altre informazioni
+         non visibili direttamente nella pagina web.
+        Questi metadati includono, tra gli altri, <span>il titolo della pagina</span>, i <span>link a fogli di stile</span>
+        (CSS),<span>i riferimenti a script</span> (JavaScript), <span>e altre informazioni utili per il browser </span>
+        La struttura dell'elemento head si trova all'inizio di un documento HTML,
+        subito dopo l'elemento html e prima del corpo del documento, che è racchiuso nell'elemento body.
+        l'elemento body rappresenta la sezione di un documento che contiene il contenuto visibile della pagina web.
+        È l'area in cui vengono inseriti gli elementi che vengono effettivamente visualizzati dall'utente, come testo,
+        immagini, tabelle, link, video e altri contenuti interattivi.
+        </p>
+        <p>
+           tutto ciò che sta all'interno del tag  <span>&lt!-- --&gt diventerà un commento</span> e quindi non fara parte 
+           del codice.
+        </p>
+        <p>
+          L'elemento title in HTML è un tag che definisce il titolo della pagina web. Questo titolo viene visualizzato
+          nella barra del titolo del browser o nella tab del browser stesso, e viene utilizzato anche nei motori di 
+          ricerca come parte della descrizione della pagina nei risultati di ricerca.
+          Il contenuto del tag title è fondamentale per l'ottimizzazione per i motori di ricerca (SEO), in quanto i motori
+          di ricerca utilizzano il titolo per comprendere di cosa tratta la pagina e per determinarne la rilevanza in 
+          relazione alle query degli utenti.  
+        </p>
+        <p>
+          tutti i tag di una pagina html sono ordinatamente nidificati ed è importante non siano mai sovrapposti ,
+          Un primo importante elemento sono le intestazioni.
+          In HTML, le intestazioni (o heading in inglese) sono rappresentate dagli elementi h1 fino a h6. 
+          Questi tag vengono utilizzati per definire titoli e sottotitoli di contenuti all'interno di una pagina web,
+          creando una struttura gerarchica e semantica per il testo. L'uso delle intestazioni è fondamentale sia per
+          l'accessibilità che per l'ottimizzazione per i motori di ricerca (SEO), in quanto contribuisce a strutturare 
+          il contenuto in modo chiaro e leggibile.  
+          Funzione degli elementi di intestazione:
+          <ul class="pio">
+            <li>Gerarchia del contenuto: Gli h1 vengono generalmente utilizzati per il titolo principale della pagina,
+                mentre gli h2 e gli altri livelli vengono utilizzati per i sottotitoli e le intestazioni successive,
+                creando una struttura a più livelli. </li>
+            <li>SEO (Search Engine Optimization): I motori di ricerca utilizzano le intestazioni per capire meglio la
+                struttura del contenuto di una pagina e determinare la sua rilevanza per determinate parole chiave. 
+                Un uso corretto degli h1–h6 aiuta a migliorare la visibilità della pagina nei risultati di ricerca.</li>
+            <li>Accessibilità: Le intestazioni rendono il contenuto più comprensibile per gli utenti con disabilità,
+                specialmente quando utilizzano lettori di schermo. La struttura gerarchica consente a chi usa tecnologie
+                 assistive di navigare facilmente tra i titoli e le sezioni della pagina. </li>
+            <li>Chiarezza e concisione: Ogni intestazione dovrebbe essere descrittiva e chiara, riassumendo il contenuto
+              della sezione a cui si riferisce.</li>
+            <li>Non abusare: Non usare le intestazioni solo per motivi stilistici.
+              L'uso di intestazioni deve essere riservato per rappresentare la struttura e la gerarchia del contenuto.\</li>
+          </ul>
+  
+        </p>
+      <p>
+        Altro importante elemento è l'elemento p . <br>
+        L'elemento p in HTML è utilizzato per definire un paragrafo di testo. Ogni volta che si usa l'elemento p,
+        il contenuto all'interno di esso viene trattato come un blocco di testo separato, che in genere viene
+        visualizzato con uno spazio sopra e sotto il paragrafo stesso (questo è il comportamento predefinito nei 
+        browser). <br>
+        DETTAGLI DELL'ELEMENTO P : <br> 
+        Blocco di livello (block-level element): l'elemento p è un elemento a livello di blocco, il che significa che
+        occupa l'intera larghezza disponibile della sua area parentale e inizia su una nuova linea. <br>
+        Spaziatura automatica: il browser inserisce automaticamente margini sopra e sotto un paragrafo, ma questa
+        spaziatura può essere modificata tramite CSS.
+        Non può contenere altri elementi di blocco: all'interno di un paragrafo p, generalmente, non si possono inserire 
+        altri elementi a livello di blocco come div, section, o header. Può contenere solo altri elementi in linea 
+        (inline) come span, a, strong, ecc.
+        Chiusura dell'elemento: l'elemento p deve essere chiuso con /p. Se non viene chiuso esplicitamente,
+        il browser lo chiuderà automaticamente quando incontrerà un altro elemento di blocco.
+      </p>  
+      <p>
+        Altro elemento fondamentale è l'elemento ul:
+        L'elemento ul in HTML è utilizzato per creare un elenco non ordinato (unordered list). Un elenco non ordinato è
+        una lista di elementi in cui l'ordine degli elementi non è importante e viene solitamente rappresentato con dei
+        puntini o altri simboli (a seconda dello stile CSS).
+        Dettagli sull'elemento ul:
+        Elemento di tipo blocco: ul è un elemento di tipo blocco, cioè occupa l'intera larghezza disponibile e inizia su una
+        nuova linea.
+        Contenitore di elementi li: All'interno di un ul, ciascun elemento della lista è rappresentato da un li, che sta 
+        per list item (voce della lista).
+        Rappresentazione grafica: Per default, gli elenchi non ordinati sono rappresentati con dei punti (bullet points)
+        accanto a ciascun elemento li, ma questo può essere cambiato tramite CSS.
+        Non numerato: A differenza di un elenco ordinato (ol), l'ordine degli elementi in un ul non è numerato o indicato
+        da una sequenza, ma semplicemente da simboli come puntini o quadrati.
+      </p>
+      <p>
+        Altro elemento fondamentale è l'elemento div:
+        L'elemento div in HTML è un contenitore generico utilizzato per raggruppare e strutturare altri elementi HTML
+        all'interno di una pagina web. Il suo scopo principale è quello di suddividere la pagina in sezioni logiche,
+        senza aggiungere alcun significato semantico particolare al contenuto (a differenza di altri elementi come section,
+        article, ecc.).
+        Dettagli sull'elemento div:
+        Elemento di tipo blocco: Il div è un elemento di tipo "bloccho", il che significa che occupa tutta la larghezza 
+        disponibile nella sua area parentale e viene visualizzato su una nuova riga.
+        Non ha uno stile predefinito: Di per sé, un div non ha alcuna rappresentazione visiva; il suo scopo principale è 
+        strutturare il contenuto, ma il suo aspetto può essere personalizzato tramite CSS.
+        Contenitore di altri elementi: All'interno di un div, puoi inserire qualsiasi altro elemento HTML, come paragrafi
+        (p), immagini (img), tabelle (table), o altri div (div nesting).
+        Semantica: Il div è un contenitore generico e non ha significato semantico (non indica un tipo di contenuto 
+        specifico). Per contenuti che richiedono una semantica più chiara, è preferibile usare tag più specifici
+        come article, section, header, ecc.
+        Quando usare div:
+        Strutturare la pagina: Il div è spesso usato per creare layout complessi, ad esempio per suddividere una pagina
+        in header, corpo, footer, colonne, ecc.
+        Raggruppare contenuti: Quando vuoi raggruppare un insieme di elementi, senza bisogno di una semantica specifica.
+        Gestire con CSS/JS: Il div è molto utile quando vuoi applicare stili CSS o manipolare contenuti con JavaScript,
+        in quanto puoi selezionarlo facilmente tramite classi o ID.   
+      </p>
+
+    </div>
+    <div class="bott-avaind">
+      <ul>
+        <li><a href="index.html">pagina principale</a></li>
+        <li><a href="">next page</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
