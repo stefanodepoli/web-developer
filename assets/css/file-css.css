@@ -10,21 +10,45 @@
 {
   .menu-index
   {
-   padding: 30px 50px;
+   padding: 30px 30px;
+  }
+  .box-comandi
+  {
+    padding-left: 20px;
   }
   .bott-avaind
   {
    padding: 50px 30px;
   }
-  header h1
+   .index header h1
   {
    text-align: center;
    font-size: 40px;
   }
+  .vsc1 h1
+  {
+    padding-top: 30px;
+  }
+  .vsc1  h4 
+  {
+    background-color: rgb(241, 241, 98);
+  }
+  .vsc1 p
+  {
+    background-color: rgb(86, 219, 86);
+  }
   /* span .evi */
-  span 
+  .y
   {
    background-color: rgb(241, 241, 98);
+  }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
   }
   P 
   {
@@ -36,28 +60,68 @@
    padding: 20px 20px;
    font-size: 20px;
   }
+  .bott-avaind li
+  {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3%;
+    margin: 18px 10px;
+  }
+  .html1 li
+  {margin-left: 30px;
+   padding: 12px 20px;
+   font-size: 20px;
+  }
+
+  
  }
  /*orizzontal mobile*/
 @media only screen and (min-width: 481px) and (max-width:800px)
 {
   .menu-index
   {
-   padding: 30px 50px;
+   padding: 30px 30px;
+  }
+  .box-comandi
+  {
+    padding-left: 20px;
   }
   .bott-avaind
   {
    padding: 50px 30px;
   }
-  header h1
+   .index header h1
   {
    text-align: center;
    font-size: 40px;
   }
+  .vsc1 h1
+  {
+    padding-top: 30px;
+  }
+  .vsc1  h4 
+  {
+    background-color: rgb(241, 241, 98);
+  }
+  .vsc1 p
+  {
+    background-color: rgb(86, 219, 86);
+  }
   /* span .evi */
-  span 
+  .y
   {
    background-color: rgb(241, 241, 98);
   }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
   P 
   {
    padding: 15px 20px;
@@ -68,28 +132,67 @@
    padding: 20px 20px;
    font-size: 20px;
   }
+  .bott-avaind li
+  {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3%;
+    margin: 18px 10px;
+  }
+  .html1 li
+  {margin-left: 30px;
+   padding: 12px 20px;
+   font-size: 20px;
+  }
+
  }
  /*tablet*/
 @media only screen and (min-width: 768px) and (max-width:1023px)
 {
   .menu-index
   {
-   padding: 30px 50px;
+   padding: 30px 30px;
+  }
+  .box-comandi
+  {
+    padding-left: 20px;
   }
   .bott-avaind
   {
    padding: 50px 30px;
   }
-  header h1
+   .index header h1
   {
    text-align: center;
    font-size: 40px;
   }
+  .vsc1 h1
+  {
+    padding-top: 30px;
+  }
+  .vsc1  h4 
+  {
+    background-color: rgb(241, 241, 98);
+  }
+  .vsc1 p
+  {
+    background-color: rgb(86, 219, 86);
+  }
   /* span .evi */
-  span 
+  .y
   {
    background-color: rgb(241, 241, 98);
   }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
   P 
   {
    padding: 15px 20px;
@@ -100,36 +203,89 @@
    padding: 20px 20px;
    font-size: 20px;
   }
+  .bott-avaind li
+  {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3%;
+    margin: 18px 10px;
+  }
+  .html1 li
+  {margin-left: 30px;
+   padding: 12px 20px;
+   font-size: 20px;
+  }
+
 }
  /*desktop*/
 @media only screen and (min-width:1024px)
 {
- .menu-index
- {
-  padding: 30px 50px;
- }
- .bott-avaind
- {
-  padding: 50px 30px;
- }
- header h1
- {
-  text-align: center;
-  font-size: 40px;
- }
- /* span .evi */
- span 
- {
-  background-color: rgb(241, 241, 98);
- }
- P 
- {
-  padding: 15px 20px;
-  font-size: 20px;
- }
- .pio 
- {margin-left: 30px;
-  padding: 20px 20px;
-  font-size: 20px;
- }
+  .menu-index
+  {
+   padding: 30px 30px;
+  }
+  .box-comandi
+  {
+    padding-left: 20px;
+  }
+  .bott-avaind
+  {
+   padding: 50px 30px;
+  }
+   .index header h1
+  {
+   text-align: center;
+   font-size: 40px;
+  }
+  .vsc1 h1
+  {
+    padding-top: 30px;
+  }
+  .vsc1  h4 
+  {
+    background-color: rgb(241, 241, 98);
+  }
+  .vsc1 p
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  /* span .evi */
+  .y
+  {
+   background-color: rgb(241, 241, 98);
+  }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
+  P 
+  {
+   padding: 15px 20px;
+   font-size: 20px;
+  }
+  .pio 
+  {margin-left: 30px;
+   padding: 20px 20px;
+   font-size: 20px;
+  }
+  .bott-avaind li
+  {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3%;
+    margin: 18px 10px;
+  }
+  .html1 li
+  {margin-left: 30px;
+   padding: 12px 20px;
+   font-size: 20px;
+  }
+
 }
