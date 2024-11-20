@@ -10,16 +10,42 @@
 {
   .graphic-designer
   {
-    padding-left: 25px;
+    padding-left: 15px;
   }
+  .y
+  {
+   background-color: rgb(241, 241, 98);
+  }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
  }
  /*orizzontal mobile*/
 @media only screen and (min-width: 481px) and (max-width:800px)
 {
   .graphic-designer
   {
-    padding-left: 25px;
+    padding-left: 20px;
   }
+  .y
+  {
+   background-color: rgb(241, 241, 98);
+  }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
 
  }
  /*tablet*/
@@ -29,6 +55,19 @@
   {
     padding-left: 25px;
   }
+  .y
+  {
+   background-color: rgb(241, 241, 98);
+  }
+  .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
 
 }
  /*desktop*/
@@ -38,6 +77,19 @@
   {
     padding-left: 25px;
   }
+  .graphic-designer .y
+  {
+   background-color: rgb(241, 241, 98);
+  }
+  .graphic-designer .g
+  {
+    background-color: rgb(86, 219, 86);
+  }
+  .graphic-designer .p
+  {
+    background-color: rgb(236, 90, 212);
+  }
+
 
 
 }
