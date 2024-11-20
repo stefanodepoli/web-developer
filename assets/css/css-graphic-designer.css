@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(141, 140, 140);
+  color: black;
+}
+/*vertical mobile*/
+@media only screen and (max-width: 480px)
+{
+  .graphic-designer
+  {
+    padding-left: 25px;
+  }
+ }
+ /*orizzontal mobile*/
+@media only screen and (min-width: 481px) and (max-width:800px)
+{
+  .graphic-designer
+  {
+    padding-left: 25px;
+  }
+
+ }
+ /*tablet*/
+@media only screen and (min-width: 768px) and (max-width:1023px)
+{
+  .graphic-designer
+  {
+    padding-left: 25px;
+  }
+
+}
+ /*desktop*/
+@media only screen and (min-width:1024px)
+{
+  .graphic-designer
+  {
+    padding-left: 25px;
+  }
+
+
+}
