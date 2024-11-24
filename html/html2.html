@@ -14,8 +14,8 @@
     <div class="bott-avaind">
       <ul>
         <li><a href="../index.html">pagina principale</a></li>
-        <li><a href="html1.html">successiva</a></li>
-        <li><a href="html3.html">precedente</a></li>
+        <li><a href="html1.html">pagina 1</a></li>
+        <li><a href="html3.html">pagina 3</a></li>
       </ul>
     </div>
     <div>
@@ -39,6 +39,89 @@
         tipo). <br>
         <span class="p">Il file della favicon (favicon.ico) deve essere posizionato nella directory principale</span> 
         del sito o nel percorso indicato nel codice.
+      </p>
+      <p>
+        La <span class="y">sezione &lthead></span> di un documento HTML è una parte fondamentale della struttura di una pagina web. <br>
+        Essa contiene informazioni metadati, link a risorse esterne, e altre impostazioni che influenzano il comportamento
+        e la visualizzazione della pagina, ma non sono visibili direttamente all'utente nel corpo della pagina stessa. <br>
+        Ecco una panoramica dei principali elementi che si trovano solitamente all'interno del tag & l thead>: <br>
+        Contenuti principali della sezione &lthead>: &lt
+        &ltmeta>: Questi tag forniscono informazioni sul documento, come la codifica dei caratteri,
+         la descrizione della pagina o le parole chiave per i motori di ricerca. <br>
+        <span class="g"> &ltmeta charset="UTF-8">:</span><span class="p">Specifica la codifica dei caratteri</span>,
+         spesso UTF-8, che include la maggior parte dei caratteri utilizzati a livello globale. <br>
+         <span class="g">&ltmeta name="description" content="descrizione della pagina">:</span>
+         <span class="p">Fornisce una breve descrizione della pagina, utile per i motori di ricerca.</span>  <br>
+         <span class="g">&ltmeta name="keywords" content="parola1, parola2">:</span><span class="p">Parole chiave per la SEO.</span> <br> 
+         <span class="g">&ltmeta name="robots" content="index, follow">:</span><span class="p">Indica ai motori di ricerca come trattare la pagina.</span>  <br>
+         <span class="g">&lttitle>:</span>
+         <span class="p">Contiene il titolo della pagina, che appare sulla barra del titolo del browser o nelle schede della finestra.</span>  <br>
+        </p>
+        <p> 
+          Esempio: &lttitle>La mia Pagina Web&lt/title> <br>
+          &ltlink>: Questo tag viene utilizzato per collegare risorse esterne come fogli di stile (CSS), icone e font. <br>
+          &ltlink rel="stylesheet" href="stile.css">: Collega un foglio di stile CSS esterno. <br>
+          &ltlink rel="icon" href="icon.ico" type="image/x-icon">: Collega l'icona della pagina (favicon). <br>
+          &ltscript>: Questo tag include o fa riferimento a script JavaScript, che possono essere eseguiti in modo sincrono o asincrono. <br>
+          
+          &ltscript src="script.js">&lt/script>: Collega un file JavaScript esterno. <br>
+          &ltstyle>: Definisce gli stili CSS direttamente all'interno della pagina HTML. <br>
+          
+          Esempio: <br>
+          html <br>
+          &ltstyle> <br>
+            body { background-color: lightblue; } <br>
+            &lt/style> <br>
+          <span class="g">Tag Open Graph (&ltmeta property="og:...">):</span>
+          <span class="p">Questi tag fanno parte della cosiddetta Open Graph protocol</span>  ed è utilizzato per ottimizzare
+          come una pagina web viene visualizzata quando viene condivisa sui social media
+           (come Facebook, Twitter, LinkedIn, ecc.). <br>
+          
+          Il tag Open Graph (og:) <br>
+          <span class="p">I tag Open Graph sono meta tag che aiutano i social network a estrarre e visualizzare informazioni
+          in modo ottimale quando un URL viene condiviso. Sono particolarmente utili per definire cosa appare nei post
+          condivisi sui social media, come titolo, descrizione e immagine.</span> <br>
+          <span class="g">Alcuni dei tag Open Graph più comuni sono:</span> <br>
+          <span class="p">og:title: Definisce il titolo che verrà visualizzato sui social media quando la pagina viene condivisa.
+          </span> <br>
+          html <br>
+          esempio <br>
+          &ltmeta property="og:title" content="Il Titolo della Mia Pagina Web"> <br>
+          <span class="p">og:description:</span>Fornisce una breve descrizione della pagina che verrà mostrata nei post. <br>
+          esempio <br>
+          html <br>
+          &ltmeta property="og:description" content="Questa è una descrizione breve della mia pagina web."> <br>
+          <span class="p">og:image:</span> Specifica l'URL dell'immagine che verrà utilizzata come anteprima nella condivisione. <br>
+          esempio <br>
+          html <br>
+          &ltmeta property="og:image" content="https://example.com/immagine.jpg"> <br>
+          <span class="p">og:url:</span> Indica l'URL canonico della pagina, che i social media useranno per fare
+           riferimento alla pagina. <br>
+          esempio <br>
+          html <br>
+          &ltmeta property="og:url" content="https://example.com/pagina"> <br>
+          <span class="p">og:type:</span> Definisce il tipo di contenuto, come ad esempio "website", "article",
+           "video", ecc.
+          esempio <br> 
+          html <br>
+          &ltmeta property="og:type" content="website"> <br>
+          Esempio di una sezione &lthead> con tag Open Graph: <br>
+          html <br>
+          &lthead> <br>
+           &ltmeta charset="UTF-8"> <br>
+           &ltmeta name="description" content="Una pagina che spiega la sezione head di HTML."> <br>
+           &ltmeta name="keywords" content="HTML, head, meta tag, web design"> <br>
+           &ltmeta property="og:title" content="Come Usare la Sezione Head di HTML"> <br>
+           &ltmeta property="og:description" content="Scopri come configurare correttamente la sezione head in HTML per migliorare il SEO e la condivisione sui social media."> <br>
+           &ltmeta property="og:image" content="https://example.com/immagine.jpg"> <br>
+           &ltmeta property="og:url" content="https://example.com/pagina"> <br>
+           &ltmeta property="og:type" content="article"> <br>
+            title>Come Usare la Sezione Head di HTML&lt/title> <br>
+            &lt/head> <br>
+          Importanza dei tag Open Graph: <br>
+          <span class="p">I tag Open Graph sono particolarmente utili per ottimizzare l’aspetto e la presentazione di una pagina quando viene 
+          condivisa sui social media. Senza questi tag, i social potrebbero scegliere automaticamente titoli, descrizioni e immagini,
+           ma con gli Open Graph è possibile personalizzare l’aspetto e migliorare l’engagement</span>.
       </p>
       <p>
         Gli elementi a livello di blocco vengono sempre disegnati su una nuova riga, mentre glie elementi in linea
