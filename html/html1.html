@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web-developer/html</title>
-    <link rel="stylesheet" href="assets/css/file-css.css">
+    <link rel="stylesheet" href="../assets/css/file-css.css">
 </head>
 <body>
   <header>
@@ -13,8 +13,8 @@
   <div class="html1">
     <div class="bott-avaind">
       <ul>
-        <li><a href="index.html">pagina principale</a></li>
-        <li><a href="">next page</a></li>
+        <li><a href="../index.html">pagina principale</a></li>
+        <li><a href="html2.html">next page</a></li>
       </ul>
     </div>
     <div>
@@ -232,104 +232,107 @@
         nella radice del sito, indipendentemente dalla posizione della pagina HTML che contiene il collegamento.
       </p>
       <p>
-        Un altro <span class="y">elemento molto importante sono le le immagini</span> e quindi il tag img
-        Anzitutto iniziamo con il definire come posso verificare che le foto che trovo in internet abbiano un 
-        <span class="g">licenza libera</span>,
-        perchè una delle cose più probabili è che andiamo a cercare una foto sul web per il nostro sito,o comunque per un uso 
-        personale. <br>
-        Per prima cosa seleziono sul brower cosa voglio cercare, clicco immagini e una volta uscita tutta la sequenza di foto 
-        seleziono strumenti,uscirà un menu,clicco su diritti di utilizzo, e infine clicco sulla voce etichettate per essere
-        riutilizzate o licenza creative commons.
-        Detto questo , L'elemento img in HTML è un tag utilizzato per incorporare immagini all'interno di una pagina web.
+        Un altro <span class="y">elemento molto importante sono le le immagini</span> e quindi il tag "img". <br>
+        L'elemento img in HTML è un tag utilizzato per incorporare immagini all'interno di una pagina web.
         Non è un tag contenitore, quindi non ha una tag di chiusura. Viene usato per visualizzare immagini in vari formati
         come JPEG, PNG, GIF, SVG, ecc. <br>
         <span class="g">Sintassi di base:</span>
-        <span class="g">img src="url-dell-immagine" alt="descrizione dell'immagine" /</span>
-        Attributi principali:
-        <span class="g">src </span>(source): Questo attributo specifica il percorso dell'immagine,
+        <span class="g">img src="url-dell-immagine" alt="descrizione dell'immagine" /</span> <br>
+        <span class="g">Attributi principali:</span> <br>
+        <span class="p">src </span>(source): Questo attributo specifica il percorso dell'immagine,
         che può essere un URL relativo o assoluto. È obbligatorio per l'elemento img.
         <span>alt</span> (alternative text): Questo attributo fornisce un testo alternativo che descrive l'immagine.
         È importante per l'accessibilità (ad esempio, per utenti con disabilità visive) e per i motori di ricerca. 
         L'attributo alt dovrebbe essere <span class="g">sempre presente</span> per garantire una buona esperienza utente,
-        soprattutto se l'immagine non può essere visualizzata.
-        <span class="g">width e height</span>: Questi attributi definiscono la larghezza e l'altezza dell'immagine.
-        Possono essere utilizzati per ridimensionare l'immagine in modo che si adatti meglio al layout della pagina.
-        <span class="g">loading</span>: Questo attributo consente di specificare come caricare l'immagine.
+        soprattutto se l'immagine non può essere visualizzata. <br>
+        <span class="p">width e height</span>: Questi attributi definiscono la larghezza e l'altezza dell'immagine.
+        Possono essere utilizzati per ridimensionare l'immagine in modo che si adatti meglio al layout della pagina. <br>
+        <span class="p">loading</span>: Questo attributo consente di specificare come caricare l'immagine.
         Può essere impostato su lazy per caricare l'immagine solo quando è visibile nella finestra di visualizzazione
         (utile per migliorare i tempi di caricamento della pagina). <br>
         esempio: <br>
         img src="image.jpg" loading="lazy" alt="Immagine di esempio" / <br>
-        <span class="g">title:</span> Questo attributo fornisce una descrizione aggiuntiva che
+        <span class="p">title:</span> Questo attributo fornisce una descrizione aggiuntiva che
         appare come un tooltip quando l'utente passa il mouse sopra l'immagine. <br>
         <span class="g">Comportamento dell'elemento img:</span>
         L'elemento <img> è "inline", cioè viene trattato come un elemento di tipo
         "contenuto in linea", e può essere posizionato all'interno di altri elementi come paragrafi, div, etc.
         Non ha una chiusura esplicita, quindi si usa solo il tag di apertura (img /), anche se nel codice HTML5 
-        è più comune scrivere img senza la barra finale.
+        è più comune scrivere img senza la barra finale. <br>
         <span class="g">Spesso vi è la necessità che la foto si adatti allo schermo.</span>
         Le immagini responsive sono immagini che si adattano automaticamente alle dimensioni del dispositivo o della
         finestra del browser in cui vengono visualizzate. In altre parole, un'immagine responsive cambia dimensione 
         (e, in alcuni casi, anche il formato) in base alle diverse risoluzioni dello schermo,
-        garantendo una buona esperienza utente su dispositivi di dimensioni variabili, come desktop, tablet e smartphone.
+        garantendo una buona esperienza utente su dispositivi di dimensioni variabili, come desktop, tablet e smartphone. <br>
         <span class="g">Perché usare immagini responsive?</span> <br>
         <ul>
-          <li>Adattamento ai dispositivi mobili: Con l'aumento dell'uso dei dispositivi mobili, le immagini devono adattarsi
+          <li><span class="p">Adattamento ai dispositivi mobili</span>: Con l'aumento dell'uso dei dispositivi mobili, le immagini devono adattarsi
            a schermi di dimensioni diverse per evitare di apparire troppo grandi o troppo piccole.</li>
-          <li>Ottimizzazione delle performance: Le immagini responsive possono ridurre il tempo di caricamento delle pagine,
+          <li><span class="p">Ottimizzazione delle performance</span>: Le immagini responsive possono ridurre il tempo di caricamento delle pagine,
             evitando di caricare immagini troppo grandi per dispositivi con schermi più piccoli, migliorando l'efficienza e
             risparmiando dati.</li>
-          <li>Migliore esperienza utente: Le immagini che si adattano bene allo schermo rendono la navigazione più fluida
-             e piacevole, evitando il bisogno di zoomare o scrollare in modo scomodo.</li>
+          <li><span class="p">Migliore esperienza utente</span>: Le immagini che si adattano bene allo schermo rendono la navigazione più fluida
+             e piacevole, evitando il bisogno di ingrandire rimpicciolire o scrollare in modo scomodo.</li>
         </ul>
+         </p>
+        <p>
         <span class="g">Come rendere un'immagine responsive?</span> <br>
         Esistono diversi approcci per creare immagini responsive,
         tra cui l'uso di CSS e HTML. Ecco alcune delle tecniche più comuni:
         Utilizzo di CSS per immagini responsive: <br>
-        Il metodo più semplice per rendere un'immagine responsive è utilizzare CSS.
-        Puoi applicare il seguente codice all'immagine per far sì che essa si adatti al contenitore:
+        Il metodo più semplice per rendere un'immagine responsive è utilizzare CSS. <br>
+        Puoi applicare il seguente codice all'immagine per far sì che essa si adatti al contenitore: <br>
         img { <br>
           max-width: 100%; <br>
           height: auto; <br>
-         }
-        max-width: 100%: Imposta la larghezza massima dell'immagine al 100% del suo contenitore.
+         } <br>
+        <span class="p">max-width: 100%: Imposta la larghezza massima dell'immagine al 100% del suo contenitore</span>.
         In questo modo l'immagine si adatta dinamicamente alla larghezza del contenitore (che potrebbe essere,
-        per esempio, il corpo della pagina o un elemento div).
-        height: auto: Mantiene le proporzioni originali dell'immagine.
+        per esempio, il corpo della pagina o un elemento div). <br>
+        <span class="p">height: auto: Mantiene le proporzioni originali dell'immagine</span>.
         La sua altezza verrà ridimensionata automaticamente in base alla nuova larghezza, evitando distorsioni. <br>
         Secondo modo: <br>
-        Utilizzare l'elemento <picture> per immagini responsiva avanzate
+        Utilizzare l'<span class="y">elemento &lt picture &gt</span> per immagini responsive avanzate. <br>
         Se desideri caricare immagini di qualità diversa a seconda della larghezza dello schermo, puoi utilizzare
-        l'elemento <picture>, che consente di specificare diverse versioni dell'immagine in base a vari breakpoint 
+        l'elemento &lt picture &gt, che consente di specificare diverse versioni dell'immagine in base a vari breakpoint 
         (come larghezze di schermo o risoluzioni). <br>
         &ltpicture> <br>
           &ltsource media="(max-width: 600px)" srcset="image-small.jpg"> <br>
           &ltsource media="(min-width: 601px)" srcset="image-large.jpg"> <br>
           &ltimg src="image-default.jpg" alt="Immagine di esempio"> <br>
         &lt/picture> <br>
+        </p>
+        <p>
         Spiegazione: <br>
         <ul>
-          <li>L'elemento picture permette di caricare immagini diverse a seconda delle caratteristiche del dispositivo 
+          <li><span class="p">L'elemento picture permette di caricare immagini diverse</span> a seconda delle caratteristiche del dispositivo 
             (es. la larghezza dello schermo).</li>
-          <li>L'elemento source definisce le immagini alternative e le condizioni (media query) che determinano quale
+          <li><span class="p">L'elemento source</span> definisce le immagini alternative e le condizioni (media query) che determinano quale
              immagine caricare.</li>
-          <li>L'elemento img è l'immagine di fallback, nel caso in cui il browser non supporti l'elemento picture o
+          <li><span class="p">L'elemento img è l'immagine di fallback</span>, nel caso in cui il browser non supporti l'elemento picture o
              non soddisfi nessuna delle condizioni.</li>
         </ul>
+        </p>
+        <p>
         Esempio con più immagini per dispositivi mobili e desktop: <br>
         &ltpicture> <br>
           &ltsource media="(max-width: 600px)" srcset="image-small.jpg"> <br>
           &ltsource media="(min-width: 601px)" srcset="image-large.jpg"><br>
           &ltimg src="image-default.jpg" alt="Immagine responsive" /> <br>
         &lt/picture> <br>
+        </p>
+        <p>
         <ul>
           <li>Se lo schermo ha una larghezza inferiore a 600px, verrà caricata image-small.jpg.</li>
           <li>Se lo schermo è più largo di 600px, verrà caricata image-large.jpg</li>
           <li>image-default.jpg è l'immagine predefinita che verrà mostrata nei browser che non supportano l'elemento
              picture.</li>
         </ul>
+         </p>
+         <p> 
         altro metodo : <br>
-        Utilizzare srcset e sizes per la gestione delle immagini responsiva. <br>
-        Un altro approccio consiste nell'usare l'attributo srcset nell'elemento img, che permette di fornire diverse
+        Utilizzare <span class="g">srcset e sizes</span> per la gestione delle immagini responsiva. <br>
+        <span class="p">Un altro approccio consiste nell'usare l'attributo srcset nell'elemento img</span>, che permette di fornire diverse
          versioni di un'immagine per differenti larghezze dello schermo. L'attributo sizes può essere utilizzato per 
          specificare come scegliere quale versione dell'immagine caricare in base alla larghezza della finestra del browser.
          Sintassi di srcset: <br>
@@ -342,11 +345,11 @@
             33vw"  <br>
            alt="Immagine responsive"> <br>
            Spiegazione: <br>
-         srcset: Specifica diverse versioni dell'immagine, ognuna con una larghezza specifica (in pixel o in unità di misura 
-         relative come w per "width"). Il browser carica l'immagine più adatta in base alla larghezza del dispositivo.
+         <span class="p">srcset: Specifica diverse versioni dell'immagine, ognuna con una larghezza specifica (in pixel o in unità di misura 
+         relative come w per "width")</span>. Il browser carica l'immagine più adatta in base alla larghezza del dispositivo.
          sizes: Definisce come scegliere tra le immagini nel srcset. Puoi usare delle media query per indicare quale 
-         immagine caricare in base alla larghezza del viewport. L'unità vw (viewport width) indica la larghezza in 
-         percentuale rispetto alla larghezza della finestra del browser.   <br>
+         immagine caricare in base alla larghezza del viewport. <span class="p">L'unità vw (viewport width) indica la larghezza in 
+         percentuale rispetto alla larghezza della finestra del browser</span>.   <br>
          Esempio di utilizzo pratico: <br>
          &ltimg src="image-default.jpg"  <br>
            srcset="image-small.jpg 600w,  <br>
@@ -362,14 +365,99 @@
           <li>Se la larghezza del browser è tra 600px e 1200px, verrà caricata l'immagine media (image-medium.jpg).</li>
           <li>Se la larghezza del browser è maggiore di 1200px, l'immagine più grande (image-large.jpg) sarà caricata.</li>
         </ul>
+      </p>  
+      <p>  
         Le immagini responsive possono migliorare l'accessibilità e l'indicizzazione delle pagine da parte dei motori
         di ricerca, poiché la struttura è ottimizzata per diversi dispositivi.
+      </p>
+      <p>
+        >DIVERSE TIPOLOGIE DI IMMAGINI <br>
+        Le immagini nel web possono essere utilizzate in vari formati, ciascuno con caratteristiche specifiche che ne determinano l’uso e la gestione da parte dei web developer. Ecco una panoramica dei formati più comuni: JPG, GIF, PNG e SVG, con una descrizione delle loro caratteristiche e di come vengono percepite e utilizzate dai web developer.
+      </p>
+       <p>
+        <span class="g">1. JPG (JPEG - Joint Photographic Experts Group)</span>  <br>
+        Caratteristiche principali:
+        <span class="p">Compressione lossy (perdita di qualità)</span>: il formato JPG utilizza una compressione che riduce
+        la qualità dell’immagine per diminuire le dimensioni del file; Tuttavia, la perdita di qualità è generalmente 
+        invisibile all’occhio umano, a meno che non venga compressa troppo. <br>
+        <span class="p">Ottimo per fotografie</span>: è il formato ideale per immagini fotografiche complesse, in
+         particolare per le fotografie con transizioni di colore sfumate e dettagli. <br>
+        <span class="p">Supporta milioni di colori (24 bit), ma non è adatto per immagini con trasparenzeo per
+         grafica che richiede bordi netti (come loghi o icone).</span> 
+        Perché i web developer lo usano:
+        Alta compressione: consente di ridurre le dimensioni dei file, migliorando i tempi di caricamento delle pagine web.
+        Uso per fotografie: è la scelta preferita per le immagini fotografiche, poiché permette di bilanciare qualità visiva e dimensioni del file.
+        Limitazioni: non supporta la trasparenza e la qualità dell’immagine diminuisce man mano che la compressione aumenta. <br>
+        <span class="g">2. GIF (Graphics Interchange Format)</span> 
+        Caratteristiche principali:
+        <span class="p">Compressione lossless (senza perdita di dati)</span>:
+        la GIF <span class="g">conserva la qualità originale senza</span>
+        perdita di dati, ma la compressione è più limitata rispetto ad altri formati come JPG. <br>
+        <span class="p">Supporta solo 256 colori</span>: le immagini GIF hanno una tavolozza di colori ridotta rispetto ad altri
+        formati, rendendole meno adatte per immagini complesse o fotografie. <br>
+        <span class="p">Supporta animazioni:</span> uno degli aspetti distintivi della GIF è la possibilità di contenere più
+        fotogrammi, rendendola ideale per piccole animazioni in loop.
+        Perché i web developer lo usano:
+        Animazioni semplici: le GIF sono ampiamente <span class="p">utilizzate per animazioni
+        leggere, come banner pubblicitari, icone animate, o effetti visivi sui siti web.</span> <br>
+        Trasparenza: la GIF <span class="p">supporta la trasparenza, ma solo per un singolo colore</span>
+         (trasparenza a livello di pixel).
+        Limitazioni: a causa della tavolozza limitata a 256 colori, non è adatta per immagini complesse o fotografiche. <br>
+        <span class="g">3. PNG (Portable Network Graphics)</span> <br>
+        Caratteristiche principali: <br>
+        <span class="p">Compressione lossless (senza perdita di qualità)</span>: la compressione non riduce la qualità 
+        dell’immagine, mantenendo tutti i dettagli.
+        <span class="p">Supporta trasparenza</span>: una delle caratteristiche principali di PNG è il supporto della
+        trasparenza con canale alfa, che <span class="p">permette di avere immagini con bordi morbidi </span>e sfondi
+        trasparenti. <br>
+        <span class="p">Migliore per grafica e illustrazioni: il formato PNG è ideale per immagini che richiedono dettagli
+         precisi, come loghi, icone, e grafica vettoriale.</span> <br>
+        Perché i web developer lo usano: <br>
+        <span class="p">Immagini con trasparenza:</span> è perfetto per immagini con sfondi trasparenti, come loghi o icone che devono integrarsi 
+        con il design della pagina senza bordi visibili. <br>
+        <span class="p">Alta qualità:</span> mantenendo la qualità, il PNG è la scelta migliore per immagini che richiedono
+        dettagli nitidi e precisi, come i diagrammi, grafici e illustrazioni. <br>
+        <span class="p">Limitazioni: le dimensioni dei file PNG possono essere più grandi rispetto a JPG</span>,
+         il che può influire sui tempi di caricamento delle pagine web. <br>
+        <span class="g">4. SVG (Scalable Vector Graphics)</span> <br>
+        Caratteristiche principali: <br>
+        <span class="p">Grafica vettoriale: SVG è un formato basato su XML che descrive immagini attraverso forme
+        geometriche (linee, cerchi, rettangoli, ecc.), quindi è scalabile senza perdita di qualità</span>. A differenza dei
+        formati raster (come JPG, PNG, GIF), le immagini SVG possono essere ridimensionate all’infinito senza compromettere
+         la qualità. <br>
+        <spa class="p">Testo scalabile: le immagini SVG possono anche contenere testo</spa>, che può essere selezionato e 
+        copiato. <br>
+        <span class="p">Piccole dimensioni dei file</span>: a causa della sua natura vettoriale, le immagini SVG tendono 
+        ad avere dimensioni di file più piccole rispetto alle immagini raster, soprattutto per grafica semplice o 
+        iconografie. <br>
+        <span class="p">Supporta trasparenza:</span> come PNG, anche SVG supporta la trasparenza. <br>
+        Perché i web developer lo usano:
+
+        Immagini scalabili: l’assenza di perdita di qualità anche al cambiamento di dimensioni lo rende perfetto per il 
+        design responsive, dove le immagini devono adattarsi a schermi di diverse dimensioni senza diventare sfocate. <br>
+        Piccole dimensioni dei file: per icone o loghi semplici, SVG è ideale perché offre una compressione molto efficiente.
+        Supporto per animazioni e interattività: SVG può essere facilmente animato tramite CSS o JavaScript, il che lo rende
+         molto utile per effetti interattivi e animazioni su un sito web. <br>
+        Limitazioni: SVG è più adatto per immagini semplici, come loghi e icone, mentre non è ideale per immagini
+         fotografiche complesse o con troppi dettagli. <br>
+        Come vede il web developer queste immagini: <br>
+        JPG: Preferito per le fotografie e le immagini ad alta definizione, dove il web developer cerca un buon compromesso
+         tra qualità e velocità di caricamento. Non è ideale per la grafica vettoriale o immagini che richiedono trasparenza.
+        GIF: Utile per piccole animazioni o immagini semplici, ma limitato dal basso numero di colori. È ancora molto
+         popolare per gli emoji e le animazioni brevi. <br>
+        PNG: Scelto per la sua alta qualità e per il supporto alla trasparenza. Viene spesso usato per icone, loghi e 
+        immagini che devono mantenere dettagli nitidi. Tuttavia, i file PNG tendono ad essere più pesanti rispetto ai JPG. <br>
+        SVG: Considerato il formato più flessibile e scalabile, perfetto per grafica vettoriale e per ottimizzare le
+        prestazioni delle pagine web. Molto apprezzato per la sua capacità di adattarsi a schermi di diverse dimensioni senza
+         perdere qualità. <br>
+        In generale, un web developer sceglie il formato più adatto in base alla tipologia di immagine (fotografia, grafica,
+        animazione), alla qualità desiderata e alle prestazioni del sito web (in particolare, la velocità di caricamento).
       </p>
     </div>
     <div class="bott-avaind">
       <ul>
-        <li><a href="index.html">pagina principale</a></li>
-        <li><a href="">next page</a></li>
+        <li><a href="../index.html">pagina principale</a></li>
+        <li><a href="html2.html">next page</a></li>
       </ul>
     </div>
 
